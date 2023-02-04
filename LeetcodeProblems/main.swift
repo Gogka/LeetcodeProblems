@@ -7,12 +7,12 @@
 
 import Foundation
 
-//FurthestBuildingYouCanReach().test()
+FurthestBuildingYouCanReach().test()
 
 //let a = FindMedianfromDataStream.MedianFinder()
 //var array: [Int] = [6,10,2,6,5,0,6,3,1,0,0]
 //var array: [Int] = [-1, -2, -3, -4, -5]
-FindMedianfromDataStream().test()
+//FindMedianfromDataStream().test()
 //array.forEach {
 //    a.addNum($0)
 //    print(a.findMedian())

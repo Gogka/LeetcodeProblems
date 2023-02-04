@@ -108,7 +108,7 @@ struct Heap<T> {
     }
     private mutating func heapify() {
         if isEmpty { return }
-        var currentNode: Int = storage.count - 1
+        var currentNode: Int = storage.count / 2
         while currentNode >= 0 {
             heapifyDown(startedNode: currentNode)
             currentNode -= 1

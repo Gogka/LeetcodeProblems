@@ -76,6 +76,7 @@
 		28E1213B2968771E00CF6F56 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1213A2968771E00CF6F56 /* PlusOne.swift */; };
 		28E1213D29687C6D00CF6F56 /* DiagonalTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1213C29687C6D00CF6F56 /* DiagonalTraverse.swift */; };
 		28E7F57F298E68A80089FB32 /* FindMedianfromDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7F57E298E68A80089FB32 /* FindMedianfromDataStream.swift */; };
+		28E7F581298EB1010089FB32 /* MaxConsecutiveOnesII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7F580298EB1010089FB32 /* MaxConsecutiveOnesII.swift */; };
 		28FDEC2B295DBF3E00FEB6BF /* PreorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDEC2A295DBF3E00FEB6BF /* PreorderTraversal.swift */; };
 		28FDEC2D295DBF9D00FEB6BF /* InorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDEC2C295DBF9D00FEB6BF /* InorderTraversal.swift */; };
 		28FDEC2F295DC00700FEB6BF /* PostorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDEC2E295DC00700FEB6BF /* PostorderTraversal.swift */; };
@@ -166,6 +167,7 @@
 		28E1213A2968771E00CF6F56 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		28E1213C29687C6D00CF6F56 /* DiagonalTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalTraverse.swift; sourceTree = "<group>"; };
 		28E7F57E298E68A80089FB32 /* FindMedianfromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianfromDataStream.swift; sourceTree = "<group>"; };
+		28E7F580298EB1010089FB32 /* MaxConsecutiveOnesII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnesII.swift; sourceTree = "<group>"; };
 		28FDEC2A295DBF3E00FEB6BF /* PreorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreorderTraversal.swift; sourceTree = "<group>"; };
 		28FDEC2C295DBF9D00FEB6BF /* InorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InorderTraversal.swift; sourceTree = "<group>"; };
 		28FDEC2E295DC00700FEB6BF /* PostorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostorderTraversal.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				2841894B2989A32E0043FD33 /* MinimumCosttoConnectSticks.swift */,
 				2841894D2989A5E30043FD33 /* FurthestBuildingYouCanReach.swift */,
 				28E7F57E298E68A80089FB32 /* FindMedianfromDataStream.swift */,
+				28E7F580298EB1010089FB32 /* MaxConsecutiveOnesII.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				283B6C5D2961B90B00D799DE /* PopulatingNextRightPointersinEachNode.swift in Sources */,
 				288B9379295D6C8300182529 /* BinaryTreesProblems.swift in Sources */,
 				285B3B2B296F0FC600B712BE /* KthLargestElementinanArray.swift in Sources */,
+				28E7F581298EB1010089FB32 /* MaxConsecutiveOnesII.swift in Sources */,
 				2841894A29899EAF0043FD33 /* KClosestPointstoOrigin.swift in Sources */,
 				282749262965B11E00E224A7 /* HeightChecker.swift in Sources */,
 				283819E12969C97C00EF0E7E /* ImplementstrStr.swift in Sources */,

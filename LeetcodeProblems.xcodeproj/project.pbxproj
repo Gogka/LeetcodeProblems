@@ -47,6 +47,9 @@
 		287B675D298FE14B00C6176C /* WallsandGates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B675C298FE14B00C6176C /* WallsandGates.swift */; };
 		287B675F298FED8000C6176C /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B675E298FED8000C6176C /* MinStack.swift */; };
 		287B6761298FEDA000C6176C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B6760298FEDA000C6176C /* Stack.swift */; };
+		287B6763298FF1E200C6176C /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B6762298FF1E200C6176C /* ValidParentheses.swift */; };
+		287B6765298FF64B00C6176C /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B6764298FF64B00C6176C /* DailyTemperatures.swift */; };
+		287B6767298FFC0500C6176C /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B6766298FFC0500C6176C /* EvaluateReversePolishNotation.swift */; };
 		287D5FFF2967F9C5001D94A7 /* PerfectSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D5FFE2967F9C5001D94A7 /* PerfectSquares.swift */; };
 		2886920B296D37D900E85117 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886920A296D37D900E85117 /* Heap.swift */; };
 		288B936E295D688B00182529 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B936D295D688B00182529 /* main.swift */; };
@@ -141,6 +144,9 @@
 		287B675C298FE14B00C6176C /* WallsandGates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallsandGates.swift; sourceTree = "<group>"; };
 		287B675E298FED8000C6176C /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		287B6760298FEDA000C6176C /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		287B6762298FF1E200C6176C /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
+		287B6764298FF64B00C6176C /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
+		287B6766298FFC0500C6176C /* EvaluateReversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReversePolishNotation.swift; sourceTree = "<group>"; };
 		287D5FFE2967F9C5001D94A7 /* PerfectSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectSquares.swift; sourceTree = "<group>"; };
 		2886920A296D37D900E85117 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		288B936A295D688B00182529 /* LeetcodeProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetcodeProblems; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -280,6 +286,9 @@
 				287B675A298FDB0000C6176C /* MovingAveragefromDataStream.swift */,
 				287B675C298FE14B00C6176C /* WallsandGates.swift */,
 				287B675E298FED8000C6176C /* MinStack.swift */,
+				287B6762298FF1E200C6176C /* ValidParentheses.swift */,
+				287B6764298FF64B00C6176C /* DailyTemperatures.swift */,
+				287B6766298FFC0500C6176C /* EvaluateReversePolishNotation.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -405,6 +414,8 @@
 				2827491C296582BA00E224A7 /* CheckIfNandItsDoubleExist.swift in Sources */,
 				28E121392968702100CF6F56 /* LargestNumberAtLeastTwiceofOthers.swift in Sources */,
 				28CD55B32964557F00F7537B /* MergeSortedArray.swift in Sources */,
+				287B6763298FF1E200C6176C /* ValidParentheses.swift in Sources */,
+				287B6767298FFC0500C6176C /* EvaluateReversePolishNotation.swift in Sources */,
 				288B9376295D68B900182529 /* ConstructBinaryTreefromInorderandPostorderTraversal.swift in Sources */,
 				289869DC296AE91C0079D3BB /* ReverseWordsinaString.swift in Sources */,
 				282749242965AA7600E224A7 /* SortArrayByParity.swift in Sources */,
@@ -456,6 +467,7 @@
 				28CD55A52963F75E00F7537B /* SerializeandDeserializeBinaryTree.swift in Sources */,
 				28E121352968652700CF6F56 /* ContainerWithMostWater.swift in Sources */,
 				28CD55B1296434FE00F7537B /* DuplicateZeros.swift in Sources */,
+				287B6765298FF64B00C6176C /* DailyTemperatures.swift in Sources */,
 				28E1213B2968771E00CF6F56 /* PlusOne.swift in Sources */,
 				289869D4296A923C0079D3BB /* TwoSumIIInputarrayissorted.swift in Sources */,
 				28E7F57F298E68A80089FB32 /* FindMedianfromDataStream.swift in Sources */,

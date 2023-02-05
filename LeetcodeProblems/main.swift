@@ -6,4 +6,4 @@
 //
 
 import Foundation
-WallsandGates().test()
+EvaluateReversePolishNotation().test()

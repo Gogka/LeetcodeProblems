@@ -55,3 +55,39 @@ struct LinkedListQueue<Element>: Queue, ExpressibleByArrayLiteral, CustomStringC
         linkedList.pop()
     }
 }
+struct DictionaryQueue<Element>: Queue, ExpressibleByArrayLiteral {
+    typealias ArrayLiteralElement = Element
+    private var startIndex: Int = 0
+    private var endIndex: Int = 0
+    private var dictionary: [Int: Element] = [:]
+    var count: Int { dictionary.count }
+    var isEmpty: Bool { dictionary.isEmpty }
+    var peek: Element? { dictionary[endIndex - 1] }
+    init() {
+        self.init(size: 0)
+    }
+    init(size: Int) {
+        dictionary = [:]
+        dictionary.reserveCapacity(size)
+    }
+    init(arrayLiteral elements: ArrayLiteralElement...) {
+        dictionary = [:]
+        dictionary.reserveCapacity(elements.count)
+        elements.enumerated().forEach { dictionary[$0.offset] = $0.element }
+    }
+    mutating func enqueue(_ element: Element) -> Bool {
+        dictionary[endIndex] = element
+        endIndex += 1
+        return true
+    }
+    mutating func dequeue() -> Element? {
+        let returned: Element? = dictionary.removeValue(forKey: startIndex)
+        if startIndex == endIndex {
+            startIndex = 0
+            endIndex = 0
+        } else {
+            startIndex += 1
+        }
+        return returned
+    }
+}

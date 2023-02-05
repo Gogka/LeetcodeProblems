@@ -6,5 +6,4 @@
 //
 
 import Foundation
-
-MaxConsecutiveOnesII().test()
+WallsandGates().test()

@@ -45,6 +45,8 @@
 		28706B832974288A00276A5E /* MeetingRoomsII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28706B822974288A00276A5E /* MeetingRoomsII.swift */; };
 		287B675B298FDB0000C6176C /* MovingAveragefromDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B675A298FDB0000C6176C /* MovingAveragefromDataStream.swift */; };
 		287B675D298FE14B00C6176C /* WallsandGates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B675C298FE14B00C6176C /* WallsandGates.swift */; };
+		287B675F298FED8000C6176C /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B675E298FED8000C6176C /* MinStack.swift */; };
+		287B6761298FEDA000C6176C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B6760298FEDA000C6176C /* Stack.swift */; };
 		287D5FFF2967F9C5001D94A7 /* PerfectSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D5FFE2967F9C5001D94A7 /* PerfectSquares.swift */; };
 		2886920B296D37D900E85117 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886920A296D37D900E85117 /* Heap.swift */; };
 		288B936E295D688B00182529 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B936D295D688B00182529 /* main.swift */; };
@@ -137,6 +139,8 @@
 		28706B822974288A00276A5E /* MeetingRoomsII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsII.swift; sourceTree = "<group>"; };
 		287B675A298FDB0000C6176C /* MovingAveragefromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAveragefromDataStream.swift; sourceTree = "<group>"; };
 		287B675C298FE14B00C6176C /* WallsandGates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallsandGates.swift; sourceTree = "<group>"; };
+		287B675E298FED8000C6176C /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
+		287B6760298FEDA000C6176C /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		287D5FFE2967F9C5001D94A7 /* PerfectSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectSquares.swift; sourceTree = "<group>"; };
 		2886920A296D37D900E85117 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		288B936A295D688B00182529 /* LeetcodeProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetcodeProblems; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -275,6 +279,7 @@
 				28E7F580298EB1010089FB32 /* MaxConsecutiveOnesII.swift */,
 				287B675A298FDB0000C6176C /* MovingAveragefromDataStream.swift */,
 				287B675C298FE14B00C6176C /* WallsandGates.swift */,
+				287B675E298FED8000C6176C /* MinStack.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				28E1212F29681F9800CF6F56 /* LinkedList.swift */,
 				28E1213229685C6800CF6F56 /* Queue.swift */,
 				2886920A296D37D900E85117 /* Heap.swift */,
+				287B6760298FEDA000C6176C /* Stack.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -407,10 +413,12 @@
 				287B675B298FDB0000C6176C /* MovingAveragefromDataStream.swift in Sources */,
 				28CD55AD2964256600F7537B /* FindNumberswithEvenofDigits.swift in Sources */,
 				2827492029659D5900E224A7 /* ReplaceElementswithGreatestElementonRightSide.swift in Sources */,
+				287B675F298FED8000C6176C /* MinStack.swift in Sources */,
 				2841894E2989A5E30043FD33 /* FurthestBuildingYouCanReach.swift in Sources */,
 				283B6C59295F365B00D799DE /* ConstructBinaryTreefromInorderandPreorderTraversal.swift in Sources */,
 				28CD55AB2964174A00F7537B /* MaxConsecutiveOnes.swift in Sources */,
 				280AE833296712BA003D2549 /* OpentheLock.swift in Sources */,
+				287B6761298FEDA000C6176C /* Stack.swift in Sources */,
 				282749222965A1D400E224A7 /* MoveZeroes.swift in Sources */,
 				283819DD2969848200EF0E7E /* PascalsTriangle.swift in Sources */,
 				28FDEC31295DC07500FEB6BF /* LevelorderTraversal.swift in Sources */,

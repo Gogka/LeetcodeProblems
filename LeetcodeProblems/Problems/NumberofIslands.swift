@@ -15,39 +15,65 @@ struct NumberOfIslands {
         let m: Int = grid.count
         let n: Int = grid.first!.count
         var passed: [[Bool]] = .init(repeating: .init(repeating: false, count: n), count: m)
-        let canPass: (Int, Int) -> Bool = {
-            if $0 < 0 || $0 >= m || $1 < 0 || $1 >= n { return false }
-            if passed[$0][$1] { return false }
-            passed[$0][$1] = true
-            return true
+        func pass(i: Int, j: Int) {
+            if i < 0 || i >= m || j < 0 || j >= n { return }
+            if grid[i][j] == "0" { return }
+            if passed[i][j] { return }
+            passed[i][j] = true
+            pass(i: i - 1, j: j)
+            pass(i: i + 1, j: j)
+            pass(i: i, j: j - 1)
+            pass(i: i, j: j + 1)
         }
         for i in 0..<m {
             for j in 0..<n {
-                guard canPass(i, j), grid[i][j] == "1" else { continue }
-                var islandSquare: [(Int, Int)] = [(i, j)]
-                let appendTileIfNeeded: (Int, Int) -> Void = {
-                    if canPass($0, $1), grid[$0][$1] == "1" {
-                        islandSquare.append(($0, $1))
-                    }
-                }
-                while !islandSquare.isEmpty {
-                    for _ in 0..<islandSquare.count {
-                        let (x, y): (Int, Int) = islandSquare.removeFirst()
-                        /// Right
-                        appendTileIfNeeded(x + 1, y)
-                        /// Left
-                        appendTileIfNeeded(x - 1, y)
-                        /// Bottom
-                        appendTileIfNeeded(x, y + 1)
-                        /// Top
-                        appendTileIfNeeded(x, y - 1)
-                    }
-                }
+                if grid[i][j] == "0" || passed[i][j] { continue }
+                pass(i: i, j: j)
                 islands += 1
             }
         }
         return islands
     }
+    /// Queue
+//    func numIslands(_ grid: [[Character]]) -> Int {
+//        if grid.isEmpty { return 0 }
+//        var islands: Int = 0
+//        let m: Int = grid.count
+//        let n: Int = grid.first!.count
+//        var passed: [[Bool]] = .init(repeating: .init(repeating: false, count: n), count: m)
+//        let canPass: (Int, Int) -> Bool = {
+//            if $0 < 0 || $0 >= m || $1 < 0 || $1 >= n { return false }
+//            if passed[$0][$1] { return false }
+//            passed[$0][$1] = true
+//            return true
+//        }
+//        for i in 0..<m {
+//            for j in 0..<n {
+//                guard canPass(i, j), grid[i][j] == "1" else { continue }
+//                var islandSquare: [(Int, Int)] = [(i, j)]
+//                let appendTileIfNeeded: (Int, Int) -> Void = {
+//                    if canPass($0, $1), grid[$0][$1] == "1" {
+//                        islandSquare.append(($0, $1))
+//                    }
+//                }
+//                while !islandSquare.isEmpty {
+//                    for _ in 0..<islandSquare.count {
+//                        let (x, y): (Int, Int) = islandSquare.removeFirst()
+//                        /// Right
+//                        appendTileIfNeeded(x + 1, y)
+//                        /// Left
+//                        appendTileIfNeeded(x - 1, y)
+//                        /// Bottom
+//                        appendTileIfNeeded(x, y + 1)
+//                        /// Top
+//                        appendTileIfNeeded(x, y - 1)
+//                    }
+//                }
+//                islands += 1
+//            }
+//        }
+//        return islands
+//    }
     private struct Example {
         let grid: [[Character]]
         let count: Int

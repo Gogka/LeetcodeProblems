@@ -6,4 +6,4 @@
 //
 
 import Foundation
-TargetSum().test()
+IsomorphicStrings().test()

@@ -15,6 +15,7 @@
 		281190362972A38500B9DD77 /* LastStoneWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281190352972A38500B9DD77 /* LastStoneWeight.swift */; };
 		281190382972A7AD00B9DD77 /* TheKWeakestRowsinaMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281190372972A7AD00B9DD77 /* TheKWeakestRowsinaMatrix.swift */; };
 		2811903A2972B64600B9DD77 /* KthSmallestElementinaSortedMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281190392972B64600B9DD77 /* KthSmallestElementinaSortedMatrix.swift */; };
+		2812078D2997C12D00E3EBCA /* ImplementStackusingQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812078C2997C12D00E3EBCA /* ImplementStackusingQueues.swift */; };
 		2827491C296582BA00E224A7 /* CheckIfNandItsDoubleExist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827491B296582BA00E224A7 /* CheckIfNandItsDoubleExist.swift */; };
 		2827491E296587B000E224A7 /* ValidMountainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827491D296587B000E224A7 /* ValidMountainArray.swift */; };
 		2827492029659D5900E224A7 /* ReplaceElementswithGreatestElementonRightSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827491F29659D5900E224A7 /* ReplaceElementswithGreatestElementonRightSide.swift */; };
@@ -118,6 +119,7 @@
 		281190352972A38500B9DD77 /* LastStoneWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStoneWeight.swift; sourceTree = "<group>"; };
 		281190372972A7AD00B9DD77 /* TheKWeakestRowsinaMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKWeakestRowsinaMatrix.swift; sourceTree = "<group>"; };
 		281190392972B64600B9DD77 /* KthSmallestElementinaSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthSmallestElementinaSortedMatrix.swift; sourceTree = "<group>"; };
+		2812078C2997C12D00E3EBCA /* ImplementStackusingQueues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStackusingQueues.swift; sourceTree = "<group>"; };
 		2827491B296582BA00E224A7 /* CheckIfNandItsDoubleExist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfNandItsDoubleExist.swift; sourceTree = "<group>"; };
 		2827491D296587B000E224A7 /* ValidMountainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidMountainArray.swift; sourceTree = "<group>"; };
 		2827491F29659D5900E224A7 /* ReplaceElementswithGreatestElementonRightSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceElementswithGreatestElementonRightSide.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				286F178029943F8300B11B24 /* ExcelSheetColumnTitle.swift */,
 				286F1782299588ED00B11B24 /* ImplementQueueusingStacks.swift */,
 				286F17842995893500B11B24 /* IsomorphicStrings.swift */,
+				2812078C2997C12D00E3EBCA /* ImplementStackusingQueues.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 				2827491E296587B000E224A7 /* ValidMountainArray.swift in Sources */,
 				283819DB29697CDB00EF0E7E /* SpiralMatrix.swift in Sources */,
 				28E1213329685C6800CF6F56 /* Queue.swift in Sources */,
+				2812078D2997C12D00E3EBCA /* ImplementStackusingQueues.swift in Sources */,
 				28503150297012B000C07472 /* TopKFrequentElements.swift in Sources */,
 				285B3B29296EEC2400B712BE /* QueryKthSmallestTrimmedNumber.swift in Sources */,
 				289869DA296AE14F0079D3BB /* PascalsTriangleII.swift in Sources */,

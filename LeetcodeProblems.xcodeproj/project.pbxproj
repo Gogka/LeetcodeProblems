@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280556D7299ABFDC00373AE1 /* DecodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280556D6299ABFDC00373AE1 /* DecodeString.swift */; };
+		280556D9299AC87500373AE1 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280556D8299AC87500373AE1 /* FloodFill.swift */; };
+		280556DB299ACE4300373AE1 /* 01Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280556DA299ACE4300373AE1 /* 01Matrix.swift */; };
+		280556DD299AD4A400373AE1 /* KeysandRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280556DC299AD4A400373AE1 /* KeysandRooms.swift */; };
 		280AE82F2966D7E8003D2549 /* DesignCircularQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280AE82E2966D7E8003D2549 /* DesignCircularQueue.swift */; };
 		280AE8312966F48B003D2549 /* NumberofIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280AE8302966F48B003D2549 /* NumberofIslands.swift */; };
 		280AE833296712BA003D2549 /* OpentheLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280AE832296712BA003D2549 /* OpentheLock.swift */; };
@@ -111,6 +115,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		280556D6299ABFDC00373AE1 /* DecodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeString.swift; sourceTree = "<group>"; };
+		280556D8299AC87500373AE1 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
+		280556DA299ACE4300373AE1 /* 01Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01Matrix.swift; sourceTree = "<group>"; };
+		280556DC299AD4A400373AE1 /* KeysandRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysandRooms.swift; sourceTree = "<group>"; };
 		280AE82E2966D7E8003D2549 /* DesignCircularQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCircularQueue.swift; sourceTree = "<group>"; };
 		280AE8302966F48B003D2549 /* NumberofIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofIslands.swift; sourceTree = "<group>"; };
 		280AE832296712BA003D2549 /* OpentheLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpentheLock.swift; sourceTree = "<group>"; };
@@ -309,6 +317,10 @@
 				286F1782299588ED00B11B24 /* ImplementQueueusingStacks.swift */,
 				286F17842995893500B11B24 /* IsomorphicStrings.swift */,
 				2812078C2997C12D00E3EBCA /* ImplementStackusingQueues.swift */,
+				280556D6299ABFDC00373AE1 /* DecodeString.swift */,
+				280556D8299AC87500373AE1 /* FloodFill.swift */,
+				280556DA299ACE4300373AE1 /* 01Matrix.swift */,
+				280556DC299AD4A400373AE1 /* KeysandRooms.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -453,6 +465,7 @@
 				280AE833296712BA003D2549 /* OpentheLock.swift in Sources */,
 				287B6761298FEDA000C6176C /* Stack.swift in Sources */,
 				282749222965A1D400E224A7 /* MoveZeroes.swift in Sources */,
+				280556D9299AC87500373AE1 /* FloodFill.swift in Sources */,
 				283819DD2969848200EF0E7E /* PascalsTriangle.swift in Sources */,
 				28FDEC31295DC07500FEB6BF /* LevelorderTraversal.swift in Sources */,
 				28E121372968699B00CF6F56 /* FindPivotIndex.swift in Sources */,
@@ -470,6 +483,7 @@
 				28E1213329685C6800CF6F56 /* Queue.swift in Sources */,
 				2812078D2997C12D00E3EBCA /* ImplementStackusingQueues.swift in Sources */,
 				28503150297012B000C07472 /* TopKFrequentElements.swift in Sources */,
+				280556DB299ACE4300373AE1 /* 01Matrix.swift in Sources */,
 				285B3B29296EEC2400B712BE /* QueryKthSmallestTrimmedNumber.swift in Sources */,
 				289869DA296AE14F0079D3BB /* PascalsTriangleII.swift in Sources */,
 				28706B832974288A00276A5E /* MeetingRoomsII.swift in Sources */,
@@ -478,6 +492,7 @@
 				280AE82F2966D7E8003D2549 /* DesignCircularQueue.swift in Sources */,
 				289869E0296AF1E80079D3BB /* SearchInsertPosition.swift in Sources */,
 				280AE8312966F48B003D2549 /* NumberofIslands.swift in Sources */,
+				280556DD299AD4A400373AE1 /* KeysandRooms.swift in Sources */,
 				28FDEC2D295DBF9D00FEB6BF /* InorderTraversal.swift in Sources */,
 				2841894C2989A32E0043FD33 /* MinimumCosttoConnectSticks.swift in Sources */,
 				289869DE296AEE3B0079D3BB /* ReverseWordsinaStringIII.swift in Sources */,
@@ -504,6 +519,7 @@
 				289869D0296A8D1E0079D3BB /* ReverseString.swift in Sources */,
 				28FDEC2B295DBF3E00FEB6BF /* PreorderTraversal.swift in Sources */,
 				287B67692990057900C6176C /* DisjointSetUnion.swift in Sources */,
+				280556D7299ABFDC00373AE1 /* DecodeString.swift in Sources */,
 				283B6C5D2961B90B00D799DE /* PopulatingNextRightPointersinEachNode.swift in Sources */,
 				288B9379295D6C8300182529 /* BinaryTreesProblems.swift in Sources */,
 				285B3B2B296F0FC600B712BE /* KthLargestElementinanArray.swift in Sources */,

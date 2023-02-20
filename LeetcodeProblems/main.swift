@@ -6,4 +6,4 @@
 //
 
 import Foundation
-MultiplyStrings().test()
+PowXN().test()

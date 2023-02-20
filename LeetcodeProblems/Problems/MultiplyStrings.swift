@@ -8,51 +8,49 @@
 import Foundation
 
 struct MultiplyStrings {
+    /// ✅ https://leetcode.com/problems/multiply-strings/description/
     func multiply(_ num1: String, _ num2: String) -> String {
         let num1Chars: [Character] = .init(num1)
         let num2Chars: [Character] = .init(num2)
-        var results: [[Character]] = []
-        func writeResults(top: [Character], bottom: [Character]) {
-            let length: Int = top.count + 1 + bottom.count
+        func writeResult(top: [Character], bottom: [Character]) -> [Character] {
+            let length: Int
+            if top.count > bottom.count {
+                length = top.count + 1 + bottom.count
+            } else {
+                length = bottom.count + 1 + top.count
+            }
+            var result: [Character] = .init(repeating: "0", count: length)
             var bottomIndex: Int = bottom.count - 1
             var topIndex: Int = top.count - 1
             while bottomIndex >= 0 {
                 let bottomDigit: Int = Int(String(bottom[bottomIndex]))!
-                var result: [Character] = .init(repeating: "0", count: length)
-                var resultIndex: Int = result.count - 1 - (bottom.count - bottomIndex - 1)
+                var iterationResult: [Character] = .init(repeating: "0", count: length)
+                var resultIndex: Int = length - (bottom.count - bottomIndex)
                 var extra: Int = 0
                 while topIndex >= 0 {
                     let topDigit: Int = Int(String(top[topIndex]))!
                     let unitResult: Int = topDigit * bottomDigit + extra
-                    result[resultIndex] = "\(unitResult % 10)".first!
+                    iterationResult[resultIndex] = "\(unitResult % 10)".first!
                     extra = unitResult / 10
                     resultIndex -= 1
                     topIndex -= 1
                 }
-                result[resultIndex] = "\(extra % 10)".first!
-                results.append(result)
+                iterationResult[resultIndex] = "\(extra % 10)".first!
+                extra = 0
+                var sumIndex: Int = length - 1
+                while sumIndex > 0 && sumIndex >= resultIndex {
+                    let sum: Int = Int(String(iterationResult[sumIndex]))! + Int(String(result[sumIndex]))! + extra
+                    result[sumIndex] = "\(sum % 10)".first!
+                    extra = sum / 10
+                    sumIndex -= 1
+                }
+                result[sumIndex] = "\(Int(String(result[sumIndex]))! + extra)".first!
                 topIndex = top.count - 1
                 bottomIndex -= 1
             }
+            return result
         }
-        if num1.count > num2.count {
-            writeResults(top: num1Chars, bottom: num2Chars)
-        } else {
-            writeResults(top: num2Chars, bottom: num1Chars)
-        }
-        var result: [Character] = .init(repeating: "0", count: results.first!.count)
-        var index: Int = result.count - 1
-        var extra: Int = 0
-        while index >= 0 {
-            var sum: Int = 0
-            for res in results {
-                sum += Int(String(res[index]))!
-            }
-            sum += extra
-            result[index] = "\(sum % 10)".first!
-            extra = sum / 10
-            index -= 1
-        }
+        let result: [Character] = writeResult(top: num1Chars, bottom: num2Chars)
         var zeroIndex: Int = 0
         while zeroIndex < result.count - 1 && result[zeroIndex] == "0" {
             zeroIndex += 1

@@ -6,4 +6,4 @@
 //
 
 import Foundation
-KeysandRooms().test()
+MultiplyStrings().test()

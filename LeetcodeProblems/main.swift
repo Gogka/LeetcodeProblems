@@ -6,4 +6,4 @@
 //
 
 import Foundation
-PowXN().test()
+KthSymbolinGrammar().test()

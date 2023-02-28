@@ -20,9 +20,8 @@ struct SearchinaBinarySearchTree {
         }
     }
     func test() {
-        let tree: TreeNode? = TreeNode.tree(from: [4,2,7,1,3])
-        let node = searchBST(tree, 2)
-        print(node)
+//        let tree: TreeNode? = TreeNode.tree(from: [4,2,7,1,3])
+//        let node = searchBST(tree, 2)
 //        let cases: [TestCase] = [
 //            .init(head: [1,2,3,4,5], result: [5,4,3,2,1]),
 //            .init(head: [1,2], result: [2,1])

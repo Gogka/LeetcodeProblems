@@ -6,4 +6,4 @@
 //
 
 import Foundation
-KthSymbolinGrammar().test()
+Sqrtx().test()

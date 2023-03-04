@@ -6,4 +6,4 @@
 //
 
 import Foundation
-Sqrtx().test()
+FindFirstandLastPositionofElementinSortedArray().test()

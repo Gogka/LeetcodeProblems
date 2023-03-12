@@ -6,4 +6,4 @@
 //
 
 import Foundation
-FindFirstandLastPositionofElementinSortedArray().test()
+MedianofTwoSortedArrays().test()

@@ -6,4 +6,4 @@
 //
 
 import Foundation
-MedianofTwoSortedArrays().test()
+LongestCommonSubsequence().test()

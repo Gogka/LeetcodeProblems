@@ -6,4 +6,4 @@
 //
 
 import Foundation
-LongestCommonSubsequence().test()
+MaximalSquare().test()

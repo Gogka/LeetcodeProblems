@@ -6,4 +6,4 @@
 //
 
 import Foundation
-MaximalSquare().test()
+CoinChange().test()

@@ -6,4 +6,4 @@
 //
 
 import Foundation
-CoinChange().test()
+LengthOfLastWord().lengthOfLastWord("Hello world")

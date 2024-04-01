@@ -6,4 +6,5 @@
 //
 
 import Foundation
-LengthOfLastWord().lengthOfLastWord("Hello world")
+let tree = ConvertSortedArrayToBinarySearchTree().sortedArrayToBST([-10, -3, 0, 5, 9])
+print(tree)

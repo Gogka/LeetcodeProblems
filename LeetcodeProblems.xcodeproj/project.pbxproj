@@ -108,6 +108,8 @@
 		289E13972BBAF4EC00481C26 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E13962BBAF4EC00481C26 /* LengthOfLastWord.swift */; };
 		289E13992BBAF6DB00481C26 /* RemoveDuplicatesFromSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E13982BBAF6DB00481C26 /* RemoveDuplicatesFromSortedList.swift */; };
 		289E139B2BBAFA3200481C26 /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E139A2BBAFA3200481C26 /* SameTree.swift */; };
+		289E139D2BBAFE6900481C26 /* ConvertSortedArrayToBinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E139C2BBAFE6900481C26 /* ConvertSortedArrayToBinarySearchTree.swift */; };
+		289E139F2BBB0DD800481C26 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E139E2BBB0DD800481C26 /* BalancedBinaryTree.swift */; };
 		28A57C0529C72BF600796CC2 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A57C0429C72BF600796CC2 /* HouseRobber.swift */; };
 		28A57C0729C733F100796CC2 /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A57C0629C733F100796CC2 /* MinCostClimbingStairs.swift */; };
 		28A57C0929C737C700796CC2 /* NthTribonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A57C0829C737C700796CC2 /* NthTribonacciNumber.swift */; };
@@ -264,6 +266,8 @@
 		289E13962BBAF4EC00481C26 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 		289E13982BBAF6DB00481C26 /* RemoveDuplicatesFromSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedList.swift; sourceTree = "<group>"; };
 		289E139A2BBAFA3200481C26 /* SameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
+		289E139C2BBAFE6900481C26 /* ConvertSortedArrayToBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSortedArrayToBinarySearchTree.swift; sourceTree = "<group>"; };
+		289E139E2BBB0DD800481C26 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		28A57C0429C72BF600796CC2 /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 		28A57C0629C733F100796CC2 /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
 		28A57C0829C737C700796CC2 /* NthTribonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NthTribonacciNumber.swift; sourceTree = "<group>"; };
@@ -461,6 +465,8 @@
 				289E13962BBAF4EC00481C26 /* LengthOfLastWord.swift */,
 				289E13982BBAF6DB00481C26 /* RemoveDuplicatesFromSortedList.swift */,
 				289E139A2BBAFA3200481C26 /* SameTree.swift */,
+				289E139C2BBAFE6900481C26 /* ConvertSortedArrayToBinarySearchTree.swift */,
+				289E139E2BBB0DD800481C26 /* BalancedBinaryTree.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -666,6 +672,7 @@
 				2819E5E829A406400012D903 /* PowXN.swift in Sources */,
 				2850314E296FDD9B00C07472 /* MaximumGap.swift in Sources */,
 				28FDEC33295DE4B600FEB6BF /* Utility.swift in Sources */,
+				289E139D2BBAFE6900481C26 /* ConvertSortedArrayToBinarySearchTree.swift in Sources */,
 				28CD55B729646CDD00F7537B /* RemoveDuplicatesfromSortedArray.swift in Sources */,
 				28FBFBBA29BE2EA800711D5A /* FindKthSmallestPairDistance.swift in Sources */,
 				28CD55AF29642CBC00F7537B /* SquaresofaSortedArray.swift in Sources */,
@@ -688,6 +695,7 @@
 				2827492A2965D95000E224A7 /* FindAllNumbersDisappearedinanArray.swift in Sources */,
 				283819DF29698E0F00EF0E7E /* AddBinary.swift in Sources */,
 				282749282965C75200E224A7 /* ThirdMaximumNumber.swift in Sources */,
+				289E139F2BBB0DD800481C26 /* BalancedBinaryTree.swift in Sources */,
 				283CA867299C12EB00BACBBD /* CountUnivalueSubtrees.swift in Sources */,
 				28103C432992EC9300EE10C5 /* TargetSum.swift in Sources */,
 				289869D0296A8D1E0079D3BB /* ReverseString.swift in Sources */,

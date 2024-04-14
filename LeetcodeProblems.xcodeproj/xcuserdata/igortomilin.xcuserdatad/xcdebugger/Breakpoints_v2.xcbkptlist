@@ -1413,17 +1413,145 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E769D724-1CC9-4C15-93D7-566B6CB27AF8"
-            shouldBeEnabled = "Yes"
+            uuid = "90A2F9F6-B6B9-4B56-9B97-B2A6014732CC"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LeetcodeProblems/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51EDFE82-9452-4F72-9298-384F726AFDF6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetcodeProblems/Problems/ExcelSheetColumnNumber.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "titleToNumber(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B57BED4-6DF2-4858-923B-ADF072125312"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetcodeProblems/Problems/PalindromeLinkedList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "isPalindrome(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCC12862-C408-4EDD-AD08-C17135374655"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetcodeProblems/Problems/PalindromeLinkedList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "isPalindrome(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C60ACD5D-4E82-4E04-9716-47F3A775D39E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetcodeProblems/Problems/NimGame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "canWinNim(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "875985D0-BC74-47FA-A0AF-8A3E86DE3D3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetcodeProblems/Problems/Trees/BinaryTrees/IncreasingOrderSearchTree.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "increasingBSTLoop(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "875985D0-BC74-47FA-A0AF-8A3E86DE3D3A - 421cbaa03a0ae0fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetcodeProblems.TreesProblems.BinaryTreesProblems.IncreasingOrderSearchTree.increasingBSTLoop(Swift.Optional&lt;LeetcodeProblems.TreesProblems.BinaryTreesProblems.TreeNode&gt;) -&gt; Swift.Optional&lt;LeetcodeProblems.TreesProblems.BinaryTreesProblems.TreeNode&gt;"
+                  moduleName = "LeetcodeProblems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igortomilin/Desktop/LeetcodeProblems/LeetcodeProblems/Problems/Trees/BinaryTrees/IncreasingOrderSearchTree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "517">
+               </Location>
+               <Location
+                  uuid = "875985D0-BC74-47FA-A0AF-8A3E86DE3D3A - 421cbaa03a0ae0fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetcodeProblems.TreesProblems.BinaryTreesProblems.IncreasingOrderSearchTree.increasingBSTLoop(Swift.Optional&lt;LeetcodeProblems.TreesProblems.BinaryTreesProblems.TreeNode&gt;) -&gt; Swift.Optional&lt;LeetcodeProblems.TreesProblems.BinaryTreesProblems.TreeNode&gt;"
+                  moduleName = "LeetcodeProblems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igortomilin/Desktop/LeetcodeProblems/LeetcodeProblems/Problems/Trees/BinaryTrees/IncreasingOrderSearchTree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "556">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34606461-564C-4A64-9D73-28F6B17A4D33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetcodeProblems/Problems/Trees/BinaryTrees/IncreasingOrderSearchTree.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "increasingBSTLoop(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
